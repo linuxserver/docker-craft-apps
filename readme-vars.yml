@@ -4,7 +4,7 @@
 project_name: craft-apps
 project_url: "https://getartcraft.com/"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/artcraft-logo.png"
-project_blurb: "[ArtCraft]({{ project_url }}) is a suite of open source creative applications written in Rust. This image bundles PhotoCraft (image editor), VectorCraft (vector illustration), FilmCraft (video editor), LightCraft (photo library and raw developer), PdfCraft (PDF workbench), EffectCraft (motion graphics and VFX compositor), DesignCraft (page layout and publishing) and FigCraft (interface design and prototyping) in a single desktop."
+project_blurb: "[ArtCraft]({{ project_url }}) is a suite of open source creative applications written in Rust. This image bundles PhotoCraft (image editor), VectorCraft (vector illustration), FilmCraft (video editor), LightCraft (photo library and raw developer), PdfCraft (PDF workbench), EffectCraft (motion graphics and VFX compositor), DesignCraft (page layout and publishing), FigCraft (interface design and prototyping) and TextureCraft (3D texture painting) in a single desktop."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
 project_blurb_optional_extras_enabled: false
 project_categories: "Image Editor,Video Editor, Media Tools"
@@ -106,5 +106,6 @@ init_diagram: |
   "craft-apps:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "01.11.26:", desc: "Add TextureCraft."}
   - {date: "18.10.26:", desc: "Add FigCraft."}
   - {date: "11.10.26:", desc: "Initial release."}

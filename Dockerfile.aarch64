@@ -39,7 +39,7 @@ RUN \
     /tmp/photocraft.deb -L \
     "https://github.com/storytold/photocraft/releases/download/${PHOTOCRAFT_RELEASE}/photocraft-$(echo ${PHOTOCRAFT_RELEASE} | sed 's/^v//g')-linux-aarch64.deb" && \
   echo "**** install craft suite ****" && \
-  for APP in designcraft effectcraft figcraft filmcraft lightcraft pdfcraft vectorcraft; do \
+  for APP in designcraft effectcraft figcraft filmcraft lightcraft pdfcraft texturecraft vectorcraft; do \
     APP_RELEASE=$(curl -sX GET "https://api.github.com/repos/storytold/${APP}/releases/latest" \
       | jq -r '.tag_name') && \
     curl -o \

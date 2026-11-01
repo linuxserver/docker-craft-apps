@@ -12,5 +12,6 @@
 <item label="EffectCraft" icon="/usr/share/icons/hicolor/48x48/apps/ai.storyteller.effectcraft.png"><action name="Execute"><command>/usr/bin/effectcraft</command></action></item>
 <item label="DesignCraft" icon="/usr/share/icons/hicolor/48x48/apps/ai.storyteller.designcraft.png"><action name="Execute"><command>/usr/bin/designcraft</command></action></item>
 <item label="FigCraft" icon="/usr/share/icons/hicolor/48x48/apps/ai.storyteller.figcraft.png"><action name="Execute"><command>/usr/bin/figcraft</command></action></item>
+<item label="TextureCraft" icon="/usr/share/icons/hicolor/48x48/apps/ai.storyteller.texturecraft.png"><action name="Execute"><command>/usr/bin/texturecraft</command></action></item>
 </menu>
 </openbox_menu>
