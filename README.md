@@ -37,7 +37,7 @@ Find us at:
 [![Jenkins Build](https://img.shields.io/jenkins/build?labelColor=555555&logoColor=ffffff&style=for-the-badge&jobUrl=https%3A%2F%2Fci.linuxserver.io%2Fjob%2FDocker-Pipeline-Builders%2Fjob%2Fdocker-craft-apps%2Fjob%2Fmaster%2F&logo=jenkins)](https://ci.linuxserver.io/job/Docker-Pipeline-Builders/job/docker-craft-apps/job/master/)
 [![LSIO CI](https://img.shields.io/badge/dynamic/yaml?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=CI&query=CI&url=https%3A%2F%2Fci-tests.linuxserver.io%2Flinuxserver%2Fcraft-apps%2Flatest%2Fci-status.yml)](https://ci-tests.linuxserver.io/linuxserver/craft-apps/latest/index.html)
 
-[ArtCraft](https://getartcraft.com/) is a suite of open source creative applications written in Rust. This image bundles PhotoCraft (image editor), VectorCraft (vector illustration), FilmCraft (video editor), LightCraft (photo library and raw developer), PdfCraft (PDF workbench), EffectCraft (motion graphics and VFX compositor), DesignCraft (page layout and publishing), FigCraft (interface design and prototyping) and TextureCraft (3D texture painting) in a single desktop.
+[ArtCraft](https://getartcraft.com/) is a suite of open source creative applications written in Rust. This image bundles PhotoCraft (image editor), VectorCraft (vector illustration), FilmCraft (video editor), LightCraft (photo library and raw developer), PdfCraft (PDF workbench), EffectCraft (motion graphics and VFX compositor), DesignCraft (page layout and publishing), FigCraft (interface design and prototyping), TextureCraft (3D texture painting) and MaterialCraft (node-based material design) in a single desktop.
 
 [![craft-apps](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/artcraft-logo.png)](https://getartcraft.com/)
 
@@ -357,6 +357,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **03.11.26:** - Add MaterialCraft.
 * **01.11.26:** - Add TextureCraft.
 * **18.10.26:** - Add FigCraft.
 * **11.10.26:** - Initial release.
