@@ -1244,7 +1244,7 @@ user-session-migration                                                        0.
 util-linux                                                                    2.41.3-3ubuntu2.2                      deb                         
 uvicorn                                                                       0.54.0                                 python                      
 uvloop                                                                        0.23.0                                 python                      
-vectorcraft                                                                   0.21.0-1                               deb                         
+vectorcraft                                                                   0.21.1-1                               deb                         
 vulkan-tools                                                                  1.4.341.0+dfsg1-1                      deb                         
 wadllib                                                                       2.0.0                                  python                      
 watchdog                                                                      7.0.0                                  python                      
