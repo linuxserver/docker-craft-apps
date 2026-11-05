@@ -667,7 +667,7 @@ pipeline {
                 --label "org.opencontainers.image.licenses=GPL-3.0-only" \
                 --label "org.opencontainers.image.ref.name=${COMMIT_SHA}" \
                 --label "org.opencontainers.image.title=Craft-apps" \
-                --label "org.opencontainers.image.description=[ArtCraft](https://getartcraft.com/) is a suite of open source creative applications written in Rust. This image bundles PhotoCraft (image editor), VectorCraft (vector illustration), FilmCraft (video editor), LightCraft (photo library and raw developer), PdfCraft (PDF workbench), EffectCraft (motion graphics and VFX compositor), DesignCraft (page layout and publishing) and FigCraft (interface design and prototyping) in a single desktop." \
+                --label "org.opencontainers.image.description=[ArtCraft](https://getartcraft.com/) is a suite of open source creative applications written in Rust. This image bundles PhotoCraft (image editor), VectorCraft (vector illustration), FilmCraft (video editor), LightCraft (photo library and raw developer), PdfCraft (PDF workbench), EffectCraft (motion graphics and VFX compositor), DesignCraft (page layout and publishing), FigCraft (interface design and prototyping), TextureCraft (3D texture painting) and MaterialCraft (node-based material design) in a single desktop." \
                 --no-cache --pull -t ${IMAGE}:${META_TAG} --platform=linux/amd64 \
                 --provenance=true --sbom=true --builder=container --load \
                 --build-arg ${BUILD_VERSION_ARG}=${EXT_RELEASE} --build-arg VERSION="${VERSION_TAG}" --build-arg BUILD_DATE=${GITHUB_DATE} .
@@ -755,7 +755,7 @@ pipeline {
                     --label "org.opencontainers.image.licenses=GPL-3.0-only" \
                     --label "org.opencontainers.image.ref.name=${COMMIT_SHA}" \
                     --label "org.opencontainers.image.title=Craft-apps" \
-                    --label "org.opencontainers.image.description=[ArtCraft](https://getartcraft.com/) is a suite of open source creative applications written in Rust. This image bundles PhotoCraft (image editor), VectorCraft (vector illustration), FilmCraft (video editor), LightCraft (photo library and raw developer), PdfCraft (PDF workbench), EffectCraft (motion graphics and VFX compositor), DesignCraft (page layout and publishing) and FigCraft (interface design and prototyping) in a single desktop." \
+                    --label "org.opencontainers.image.description=[ArtCraft](https://getartcraft.com/) is a suite of open source creative applications written in Rust. This image bundles PhotoCraft (image editor), VectorCraft (vector illustration), FilmCraft (video editor), LightCraft (photo library and raw developer), PdfCraft (PDF workbench), EffectCraft (motion graphics and VFX compositor), DesignCraft (page layout and publishing), FigCraft (interface design and prototyping), TextureCraft (3D texture painting) and MaterialCraft (node-based material design) in a single desktop." \
                     --no-cache --pull -t ${IMAGE}:amd64-${META_TAG} --platform=linux/amd64 \
                     --provenance=true --sbom=true --builder=container --load \
                     --build-arg ${BUILD_VERSION_ARG}=${EXT_RELEASE} --build-arg VERSION="${VERSION_TAG}" --build-arg BUILD_DATE=${GITHUB_DATE} .
@@ -875,7 +875,7 @@ pipeline {
                     --label "org.opencontainers.image.licenses=GPL-3.0-only" \
                     --label "org.opencontainers.image.ref.name=${COMMIT_SHA}" \
                     --label "org.opencontainers.image.title=Craft-apps" \
-                    --label "org.opencontainers.image.description=[ArtCraft](https://getartcraft.com/) is a suite of open source creative applications written in Rust. This image bundles PhotoCraft (image editor), VectorCraft (vector illustration), FilmCraft (video editor), LightCraft (photo library and raw developer), PdfCraft (PDF workbench), EffectCraft (motion graphics and VFX compositor), DesignCraft (page layout and publishing) and FigCraft (interface design and prototyping) in a single desktop." \
+                    --label "org.opencontainers.image.description=[ArtCraft](https://getartcraft.com/) is a suite of open source creative applications written in Rust. This image bundles PhotoCraft (image editor), VectorCraft (vector illustration), FilmCraft (video editor), LightCraft (photo library and raw developer), PdfCraft (PDF workbench), EffectCraft (motion graphics and VFX compositor), DesignCraft (page layout and publishing), FigCraft (interface design and prototyping), TextureCraft (3D texture painting) and MaterialCraft (node-based material design) in a single desktop." \
                     --no-cache --pull -f Dockerfile.aarch64 -t ${IMAGE}:arm64v8-${META_TAG} --platform=linux/arm64 \
                     --provenance=true --sbom=true --builder=container --load \
                     --build-arg ${BUILD_VERSION_ARG}=${EXT_RELEASE} --build-arg VERSION="${VERSION_TAG}" --build-arg BUILD_DATE=${GITHUB_DATE} .
